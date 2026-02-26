@@ -1,0 +1,314 @@
+@font-face {
+    font-family: Lexend Deca;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+
+    font-family: Big Shoulders;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-width: 320px;
+    max-width: 375px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 20px 20px;
+
+}
+
+.container1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px 70px 40px 70px;
+
+    .sedan {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-family: Big Shoulders;
+        font-weight: 700;
+        color: hsl(0, 0%, 95%);
+    }
+
+    p {
+        font-weight: 400;
+        font-family: Lexend Deca;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 1.5;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    button {
+        font-weight: 400;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        color: hsl(31, 77%, 52%);
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        border: 2px solid white;
+    }
+}
+
+.container2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px 70px 40px 70px;
+
+    .sedan {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+
+        font-family: Big Shoulders;
+        font-weight: 700;
+        color: hsl(0, 0%, 95%);
+    }
+
+    p {
+        font-weight: 400;
+        font-family: Lexend Deca;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 1.5;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    button {
+        font-weight: 400;
+        font-family: Lexend Deca;
+        font-size: 15px;
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    button:hover {
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        border: 2px solid white;
+    }
+}
+
+.container3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px 70px;
+
+    .sedan {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+
+        font-family: Big Shoulders;
+        font-weight: 700;
+        color: hsl(0, 0%, 95%);
+    }
+
+    p {
+        font-weight: 400;
+        font-family: Lexend Deca;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 1.5;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    button {
+        font-family: Lexend Deca;
+        font-weight: 400;
+        font-size: 15px;
+        color: hsl(179, 100%, 13%);
+        cursor: pointer;
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    button:hover {
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        border: 2px solid white;
+    }
+}
+
+@media (min-width:1200px) {
+    body {
+        max-width: 1440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container1 {
+        background-color: hsl(31, 77%, 52%);
+        padding: 30px 63px;
+        width: 300px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+
+        .sedan {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+
+            font-family: Big Shoulders;
+            font-weight: 700;
+            color: hsl(0, 0%, 95%);
+        }
+
+        p {
+            font-family: Lexend Deca;
+            font-weight: 400;
+            color: hsla(0, 0%, 100%, 0.75);
+            line-height: 1.5;
+            margin-bottom: 70px;
+            margin-top: 30px;
+        }
+
+        button {
+
+            font-family: Lexend Deca;
+            font-weight: 400;
+            color: hsl(31, 77%, 52%);
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            margin-bottom: 20px;
+            cursor: pointer;
+            background-color: hsl(0, 0%, 95%);
+        }
+
+        button:hover {
+            background-color: hsl(31, 77%, 52%);
+            color: white;
+            border: 2px solid white;
+        }
+
+    }
+
+    .container2 {
+        background-color: hsl(184, 100%, 22%);
+        padding: 30px 63px;
+        width: 300px;
+
+        .sedan {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+
+            font-family: Big Shoulders;
+            font-weight: 700;
+            color: hsl(0, 0%, 95%);
+        }
+
+        p {
+
+            font-family: Lexend Deca;
+            font-weight: 400;
+            color: hsla(0, 0%, 100%, 0.75);
+            line-height: 1.5;
+            margin-bottom: 70px;
+            margin-top: 30px;
+        }
+
+        button {
+
+            font-family: Lexend Deca;
+            font-weight: 400;
+            color: hsl(184, 100%, 22%);
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            margin-bottom: 20px;
+            cursor: pointer;
+            background-color: hsl(0, 0%, 95%);
+        }
+
+        button:hover {
+            background-color: hsl(184, 100%, 22%);
+            color: white;
+            border: 2px solid white;
+        }
+    }
+
+    .container3 {
+        background-color: hsl(179, 100%, 13%);
+        padding: 30px 63px;
+        width: 300px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+
+        .sedan {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+
+            font-family: Big Shoulders;
+            font-weight: 700;
+            color: hsl(0, 0%, 95%);
+        }
+
+        p {
+
+            font-family: Lexend Deca;
+            font-weight: 400;
+            color: hsla(0, 0%, 100%, 0.75);
+            line-height: 1.5;
+            margin-bottom: 70px;
+            margin-top: 30px;
+        }
+
+        button {
+
+            font-family: Lexend Deca;
+            font-weight: 400;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            margin-bottom: 20px;
+            cursor: pointer;
+            background-color: hsl(0, 0%, 95%);
+            color: hsl(179, 100%, 13%);
+        }
+
+        button:hover {
+            background-color: hsl(179, 100%, 13%);
+            color: white;
+            border: 2px solid white;
+        }
+    }
+
+}
